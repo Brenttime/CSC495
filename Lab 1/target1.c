@@ -1,11 +1,14 @@
-#include <studio.h>
+#include <stdio.h>
 #include <string.h>
+
+void successfulLogin();
+void incorrectPasswordError();
 
 main()
 {
-    usersPassword = "secret99";
+    char usersPassword[8] = "secret99";
     //need to make a buffer/stack in order to overflow
-    char[8] password;
+    char password[8];
     gets(password);
 
     if(password == usersPassword)
