@@ -19,6 +19,7 @@ main()
     {
         incorrectPasswordError();
     }
+    printf("%s\n", password);
 }
 
 void successfulLogin()
