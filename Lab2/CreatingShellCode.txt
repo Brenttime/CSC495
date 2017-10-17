@@ -1,0 +1,11 @@
+0x00000598 <+0>:	push   %ebp (bin)
+0x000005e5 <+0>:	push   %ebp (bash)
+0x0000056d <+0>:	push   %ebp (exec_string)
+
+
+
+\x98\x05\x00\x00
+
+\xe5\x05\x00\x00
+
+\x6d\x05\x00\x00
