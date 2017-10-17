@@ -21,7 +21,7 @@ void add_bash(int magic1, int magic2) {
 
 void vulnerable_function(char *string) {
   char buffer[100];
-  strcpy(buffer, string);
+  gets(buffer);
 }
 
 int main(int argc, char** argv) {
